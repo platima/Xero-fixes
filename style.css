@@ -1,0 +1,68 @@
+div.document .bank-summary {
+    padding: 8px 0 4px 0;
+}
+
+div.document ul.group a {
+    padding: 6px 8px;
+}
+
+div.document #ItemsToReconcile {
+    padding: 16px;
+}
+
+div.document #ItemsToReconcile div.headings {
+    margin-bottom: 6px;
+}
+
+#ItemsToReconcile .headings.line {
+    margin-top: 6px;
+}
+
+#ItemsToReconcile .line:not(.headings) .statement:not(.bank-transaction) .tabs a {
+    padding: 3px 20px 2px 20px;
+}
+
+#ItemsToReconcile .line:not(.headings) .statement:not(.bank-transaction) .tabs a.t5 { 
+    padding: 4px 16px 2px 18px;
+    height: 24px;
+}
+
+#ItemsToReconcile .line:not(.headings) .statement:not(.bank-transaction) .tabs {
+    height: 24px;
+}
+
+#ItemsToReconcile .line:not(.headings) .statement:not(.bank-transaction) .x-form-field-wrap input.x-form-text input, #ItemsToReconcile .line:not(.headings) .statement:not(.bank-transaction) .field input, #ItemsToReconcile .line:not(.headings) .statement:not(.bank-transaction) .x-form-field-wrap input.x-form-text .dd .legacy-control, #ItemsToReconcile .line:not(.headings) .statement:not(.bank-transaction) .field .dd .legacy-control, div.autocomplete>div>div, #ItemsToReconcile .line:not(.headings) .statement:not(.bank-transaction) .info.c2 .apply-tracking .x-form-field-wrap.x-form-field-trigger-wrap .x-form-text.x-form-field, #ItemsToReconcile .line:not(.headings) .statement:not(.bank-transaction) .info.c2 .apply-tracking .onRight a {
+    padding: 2px 8px 2px 8px;
+}
+
+#ItemsToReconcile .statement.bank-transaction {
+    margin-top: 24px;
+}
+
+#ItemsToReconcile .line:not(.headings) .statement:not(.bank-transaction) .info.c2 .field.name, #ItemsToReconcile .line:not(.headings) .statement:not(.bank-transaction) .info.c2 .field.acct, #ItemsToReconcile .line:not(.headings) .statement:not(.bank-transaction) .info.c2 .field.desc {
+    margin-top: 10px;
+}
+
+#ItemsToReconcile .line:not(.headings) .statement:not(.bank-transaction) .info.c2 .apply-tracking .x-form-field-wrap.x-form-field-trigger-wrap::after {
+    top: 8px;
+}
+
+#ItemsToReconcile .line:not(.opened) {
+    margin-bottom: 12px;
+}
+
+.bridge-lower .pagination {
+    margin-top: 4px;
+}
+
+.bridge-lower .pagination #mainPagerLabel {
+    line-height: 24px;
+}
+
+.bridge-lower .pagination .pagerDirections .suggestMemorisationToggle {
+    height: 24px;
+}
+
+.bridge-lower .pagination .suggestMemorisationToggle {
+    margin-right:8px
+}
