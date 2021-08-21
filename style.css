@@ -8,6 +8,7 @@ div.document ul.group a {
 
 div.document #ItemsToReconcile {
     padding: 16px;
+    padding-top: 8px;
 }
 
 div.document #ItemsToReconcile div.headings {
@@ -65,4 +66,27 @@ div.document #ItemsToReconcile div.headings {
 
 .bridge-lower .pagination .suggestMemorisationToggle {
     margin-right:8px
+}
+
+div.statement div.details-container > div.details > span:nth-child(2) {
+    white-space: nowrap;
+    max-width: 283px;
+}
+
+div.tip {
+    visibility: hidden;
+    display: none;
+}
+
+#ItemsToReconcile .line:not(.headings) .statement:not(.bank-transaction) .info.c1 .batched-mismatch-details.visible+a {
+    margin-top: 8px;
+    margin-bottom: 9px;
+}
+
+#ItemsToReconcile .line:not(.headings) .statement:not(.bank-transaction) .info.c1 .batched-mismatch-header, #ItemsToReconcile .line:not(.headings) .statement:not(.bank-transaction) .info.c1 .icon.batched-mismatch-icon { 
+    margin-top: 8px;
+}
+
+#ItemsToReconcile .headings.line {
+    margin-top: 2px;
 }
