@@ -80,13 +80,26 @@ div.tip {
 
 #ItemsToReconcile .line:not(.headings) .statement:not(.bank-transaction) .info.c1 .batched-mismatch-details.visible+a {
     margin-top: 8px;
-    margin-bottom: 9px;
+    margin-bottom: 6px;
 }
 
 #ItemsToReconcile .line:not(.headings) .statement:not(.bank-transaction) .info.c1 .batched-mismatch-header, #ItemsToReconcile .line:not(.headings) .statement:not(.bank-transaction) .info.c1 .icon.batched-mismatch-icon { 
-    margin-top: 8px;
+    margin-top: 2px;
+    width: 24p
 }
 
 #ItemsToReconcile .headings.line {
     margin-top: 2px;
+}
+
+#ItemsToReconcile .statement.bank-transaction .details span, #ItemsToReconcile .statement.bank-transaction .details strong, #ItemsToReconcile .statement.bank-transaction .details a, #ItemsToReconcile .line:not(.headings) .statement:not(.bank-transaction) .tabs a {
+    font-size: 12px;
+}
+
+#ItemsToReconcile .line:not(.headings) .statement:not(.bank-transaction) .info.c2 .apply-tracking {
+    margin-top: 8px;
+}
+
+#ItemsToReconcile .line:not(.headings) .statement:not(.bank-transaction) .info.c1 .batched-mismatch-header strong {
+    margin-top: 4px;
 }
