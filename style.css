@@ -85,7 +85,6 @@ div.tip {
 
 #ItemsToReconcile .line:not(.headings) .statement:not(.bank-transaction) .info.c1 .batched-mismatch-header, #ItemsToReconcile .line:not(.headings) .statement:not(.bank-transaction) .info.c1 .icon.batched-mismatch-icon { 
     margin-top: 2px;
-    width: 24p
 }
 
 #ItemsToReconcile .headings.line {
@@ -102,4 +101,89 @@ div.tip {
 
 #ItemsToReconcile .line:not(.headings) .statement:not(.bank-transaction) .info.c1 .batched-mismatch-header strong {
     margin-top: 4px;
+}
+
+#ItemsToReconcile .line:not(.headings) .statement:not(.bank-transaction) .info.c1 .icon:not(.batch)~.no-float {
+    min-height: 97px;
+}
+
+div.document .line.opened {
+    padding-top: 4px;
+}
+
+#ItemsToReconcile .line:not(.headings) .statement:not(.bank-transaction) .info.c1 .no-float p {
+    line-height: 97px;
+}
+
+.opened div.find {
+    margin-top: 4px;
+}
+
+div.document .line.opened .findMatch .find>.group::before{
+    margin-bottom: 10px;
+}
+
+div.document .line.opened .findMatch .bankrec-search-form div.newsearchcol {
+    padding-bottom: 2px;
+}
+
+div.document .line.opened .findMatch .bankrec-search-form div.newsearchcol #searchNameText, div.document .line.opened .findMatch .bankrec-search-form div.newsearchcol #searchAmountText {
+    padding: 8px 8px;
+}
+
+div.document .line.opened .findMatch .bankrec-search-form .checks .show-currency {
+    margin-top: 8px;
+}
+
+div.document .line.opened .findMatch .newPayment>.group .selectHeader>*, div.document .line.opened .findMatch .newPayment>.group .selectList .transaction-row>*, div.document .line.opened .findMatch .find>.group .selectHeader>*, div.document .line.opened .findMatch .find>.group .selectList .transaction-row>*, div.document .line.opened .findMatch .tables>.grid .selectHeader>*, div.document .line.opened .findMatch .tables>.grid .selectList .transaction-row>* {
+    padding: 2px 5px 2px 5px;
+}
+
+.ext-chrome .find .selectList .transaction-row {
+    padding-bottom: 2px;
+}
+
+div.document .line.opened .findMatch .newPayment>.group div.pager, div.document .line.opened .findMatch .find>.group div.pager, div.document .line.opened .findMatch .tables>.grid div.pager {
+    padding: 4px 12px 4px 12px;
+}
+
+.newPayment .group, .find .group {
+    margin-bottom: 2px;
+    padding-top: 2px;
+}
+
+div.document .line.opened .findMatch div.newTransactionLayout dl.select {
+    margin-bottom: 4px;
+}
+
+div.document .line.opened .findMatch .newPayment>.group .selectList *, div.document .line.opened .findMatch .find>.group .selectList *, div.document .line.opened .findMatch .tables>.grid .selectList * {
+    font-size: 12px;
+}
+
+div.document .line.opened .findMatch .newPayment>.group .transaction-row>*, div.document .line.opened .findMatch .find>.group .transaction-row>*, div.document .line.opened .findMatch .tables>.grid .transaction-row>* {
+    line-height: 20px;
+}
+
+div.document .line.opened .findMatch .tables>p:first-child *, div.document .line.opened .findMatch .find>.group .tables>p {
+    font-size: 14px;
+}
+
+div.document .line.opened .findMatch .find .group:nth-last-child(2) #subtotal {
+    padding: 8px 0 8px 0;
+}
+
+div.document .line.opened .findMatch .newPayment>.group .selectList, div.document .line.opened .findMatch .find>.group .selectList, div.document .line.opened .findMatch .tables>.grid .selectList {
+    height: 110px;
+}
+
+div.document .line.opened .findMatch .find .group:nth-last-child(2) .sum.double-border strong {
+    padding-top: 4px;
+}
+
+div.document .line.opened .findMatch .find .group:nth-last-child(2) .tables>.sum:first-child {
+    padding-bottom: 4px;
+}
+
+div.document .line.opened .findMatch .newPayment>.group .selectList>span, div.document .line.opened .findMatch .find>.group .selectList>span, div.document .line.opened .findMatch .tables>.grid .selectList>span {
+    line-height: 108px;
 }
