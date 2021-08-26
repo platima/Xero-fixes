@@ -187,3 +187,8 @@ div.document .line.opened .findMatch .find .group:nth-last-child(2) .tables>.sum
 div.document .line.opened .findMatch .newPayment>.group .selectList>span, div.document .line.opened .findMatch .find>.group .selectList>span, div.document .line.opened .findMatch .tables>.grid .selectList>span {
     line-height: 108px;
 }
+
+div.document .line.opened .findMatch .find>.actions .reconcileButton.green.xbtn {
+    background: #2d7300 !important;
+    color: #fff;
+}
